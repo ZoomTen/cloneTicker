@@ -4,13 +4,13 @@ An HTML+JS ticker "inspired" by the web tickers a specific TV station used to gi
 
 Installing
 -
-1. Copy `cloneTicker-common.js` (or `cloneTicker-common-minified.js`)  and `cloneTicker-categories.js` into your website's root directory.
+1. Copy `cloneTicker-common.js` and `cloneTicker-categories.js` into your website's root directory.
 
 2. Copy the folder named `tickers` (If you choose to rename it, make sure to set the `tickerbase` variable in `common.js` to the same name)
 
 Using
 -
-1. In the desired webpage you want to use the cloneTickers on, add <br>`<script src="cloneTicker-common.js"></script>` (remember to append `-minified` if you use that)<br>and **after it**,<br>`
+1. In the desired webpage you want to use the cloneTickers on, add <br>`<script src="cloneTicker-common.js"></script>`<br>and **after it**,<br>`
 <script src="cloneTicker-categories.js"></script>`<br>in the header.
 
 2. Write the style to use for the tickers. Available classes are:<br>`ticker-main`, `ticker-title`, `ticker-title-generic`, and `ticker-title-*`<br>where `*` is the ID of the category. `cloneTicker.css`, the included style, should be a good enough starting style. You can use it through:<br>`<link href="cloneTicker.css" rel="stylesheet" type="text/css">`<br>if you copied the style into the folder.
