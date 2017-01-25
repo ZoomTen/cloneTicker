@@ -17,7 +17,7 @@ Using
 
 3. Include a ticker in your HTML. Examples are included in the [demo page](http://zoomten.github.io/cloneticker/demo.html). **You can only have 1 ticker for each mode! (1 horizontal and/or 1 vertical)**
 
-4. Ticker data is split into categories and content.<br> The categories are defined in `cloneTicker-categories.js`.<br><br>The ticker data depends on the `ticker_id`, which corresponds to the file name in the tickers folder. In the demo's case, `ticker_id="latest"` means the ticker should load content from `latest.js`. (The sample data for cloneTicker)<br><br>To write different ticker content, you can either edit `latest.js`, or make different files based on it, provided that you change the `ticker_id` accordingly.
+4. Ticker data is split into categories and content.<br> The categories are defined in `cloneTicker-categories.js`.<br><br>The ticker data is dependent on the loaded script within the cloneTicker `div`. In the demo's case, it's `latest.js` and `latest2.js`, loaded with `<script src="tickers/latest.js">`, and `<script src="tickers/latest2.js">` respectively.<br><br>To write different ticker content, you can either edit `testticker_0.js`, or make different files based on it, provided that you change the HTML code accordingly.
 
 License
 -
